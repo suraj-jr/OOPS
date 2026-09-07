@@ -1,0 +1,33 @@
+ import java.util.Scanner;
+ 
+ class Resturant{
+    String name;
+    double rating;
+    String food;
+}
+
+public class Main{
+    public static void main(String[] args){
+    Scanner sc= new Scanner(System.in);
+    Resturant r1= new Resturant();
+    Resturant r2= new Resturant();
+    
+     System.out.println("Enter the hotel name: ");
+    r1.name=sc.nextLine();
+     System.out.println("Enter the hotel rating: ");
+    r1.rating=sc.nextDouble();
+     System.out.println("Enter the food rating: ");
+    r1.food=sc.nextLine();
+    
+     System.out.println("Enter the Hotel name: ");
+      r2.name="SSBiriyani";
+     System.out.println("Enter the Hotel rating: ");
+      r2.rating=5;
+     System.out.println("Enter the food name: ");
+      r2.food="Biriyani";
+    
+    System.out.println("Hotel: " +r2.name);
+    System.out.println("Hotel rating: " +r2.rating);
+    System.out.println("Food name: " +r2.food);
+}
+}
