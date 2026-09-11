@@ -1,0 +1,4 @@
+Encapsulation is the process of protecting data by using   private variable and accessing the data through the method called setter
+and getter.Encapsulation controlling the object data by modfying the data  and getting control access of  data for example Developer
+can set limitation and constraints on the user given value like ATM showing the limitation of  Min amount that required for user to 
+receive the money from ATM....
