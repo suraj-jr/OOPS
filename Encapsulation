@@ -1,7 +1,7 @@
  Encapsulation is the process of protecting data by using   private variable and accessing the data through the method called setter
 and getter.Encapsulation controlling the object data by modfying the data  and getting control access of  data for example Developer
 can set limitation and constraints on the value given by the user. In a ATM, developer can set limit of  minimum withdrawl amount.
-the user can withdraw money only if it meets that limit..
+the user can withdraw money only if value meets that limit..
 
 import java.util.Scanner;
 public class BankAccount{
